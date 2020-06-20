@@ -105,7 +105,7 @@ img {
       margin-top: 3rem;
       display: grid;
       grid-gap: 1rem;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
 
       .fas {
         color: $main-color;
@@ -274,8 +274,9 @@ img {
   &-d {
     .testimonials {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 0.5rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 3rem;
+      margin: 2rem;
 
       ul {
         list-style: none;
@@ -287,7 +288,7 @@ img {
       p {
         border: 1px solid $main-color;
         border-radius: 5px;
-        padding: 0.5rem;
+        padding: 1.5rem;
       }
 
       img {
