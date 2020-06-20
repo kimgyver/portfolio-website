@@ -305,7 +305,6 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-columns: 3fr 5fr;
   grid-template-areas: 'bioimage bio';
   grid-gap: 1.2rem; }
 

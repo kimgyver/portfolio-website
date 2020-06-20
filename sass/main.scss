@@ -204,7 +204,7 @@ img {
   &-a {
     .about-info {
       display: grid;
-      grid-template-columns: 3fr 5fr;
+      // grid-template-columns: 3fr 5fr;
       grid-template-areas: 'bioimage bio';
       //   'aw1 aw2 aw3';
       grid-gap: 1.2rem;
