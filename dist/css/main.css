@@ -48,6 +48,10 @@ input[class^='btn-']:hover {
   font-size: 1.3rem;
   margin-bottom: 2rem; }
 
+.lead-2 {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem; }
+
 .text-center {
   text-align: center; }
 
@@ -163,6 +167,11 @@ input[class^='btn-']:hover {
     opacity: 0.7;
     margin: 0; }
 
+.item-black {
+  background: #fffc00; }
+  .item-black-text {
+    color: black; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -213,7 +222,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/showcase.png") no-repeat center center/cover;
+  background: url("../img/showcase-3.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -224,7 +233,7 @@ img {
     line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.png") no-repeat 20% 30%/cover;
+  background: url("../img/showcase-3.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
@@ -296,7 +305,8 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+  grid-template-columns: 3fr 5fr;
+  grid-template-areas: 'bioimage bio';
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -331,6 +341,9 @@ img {
   #about-b .progress div {
     height: 100%;
     background: #ffbc00; }
+
+#about-b .progress-blue div {
+  background: #009cff; }
 
 #about-c .about-logos {
   display: grid;
@@ -408,6 +421,7 @@ img {
     #main-footer .footer-content .social .fab {
       margin-right: 1rem;
       border: 2px #fff solid;
+      color: #fff;
       border-radius: 50%;
       height: 20px;
       width: 20px;

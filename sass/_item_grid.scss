@@ -98,3 +98,11 @@
     margin: 0;
   }
 }
+
+.item-black {
+  background: #fffc00;
+
+  &-text {
+    color: black;
+  }
+}
